@@ -546,9 +546,9 @@ function updateEventFilters() {
         events.map(e => `<option value="${e.id}">${e.name}</option>`).join('');
 }
 
-// Setup Event Listeners
+// Setup Event Listeners  
 function setupEventListeners() {
-    // Search and filter listeners
+    // Search and filter listeners 
     document.getElementById('eventSearch').addEventListener('input', loadEvents);
     document.getElementById('eventTypeFilter').addEventListener('change', loadEvents);
     document.getElementById('guestSearch').addEventListener('input', loadGuests);
