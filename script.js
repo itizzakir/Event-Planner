@@ -548,7 +548,7 @@ function updateEventFilters() {
 
 // Setup Event Listeners  
 function setupEventListeners() {
-    // Search and filter listeners 
+    // Search and filter listeners
     document.getElementById('eventSearch').addEventListener('input', loadEvents);
     document.getElementById('eventTypeFilter').addEventListener('change', loadEvents);
     document.getElementById('guestSearch').addEventListener('input', loadGuests);
