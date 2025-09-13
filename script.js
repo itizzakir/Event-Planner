@@ -562,7 +562,7 @@ function setupEventListeners() {
     });
 }
 
-// Add fade out animation 
+// Add fade out animation
 const style = document.createElement('style');
 style.textContent = `
     @keyframes fadeOut {
