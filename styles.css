@@ -740,7 +740,7 @@ body {
     to { transform: rotate(360deg); }
 }
 
-/* Print Styles  */
+/* Print Styles */
 @media print {
     .navbar,
     .btn,
