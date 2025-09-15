@@ -505,7 +505,7 @@ function formatDate(dateString) {
 }
 
 function showNotification(message, type = 'success') {
-    // Create notification element
+    // Create notification element 
     const notification = document.createElement('div');
     notification.className = `notification ${type}`;
     notification.innerHTML = `
