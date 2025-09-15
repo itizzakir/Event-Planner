@@ -367,7 +367,7 @@ function openExpenseModal() {
     document.getElementById('expenseModal').classList.add('active');
     document.getElementById('expenseForm').reset();
     
-    // Populate event dropdown
+    // Populate event dropdown 
     const eventSelect = document.getElementById('expenseEvent');
     eventSelect.innerHTML = '<option value="">Select Event</option>' + 
         events.map(e => `<option value="${e.id}">${e.name}</option>`).join('');
