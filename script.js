@@ -1,4 +1,4 @@
-// Data Management
+// Data Management 
 let events = JSON.parse(localStorage.getItem('events')) || [];
 let guests = JSON.parse(localStorage.getItem('guests')) || [];
 let expenses = JSON.parse(localStorage.getItem('expenses')) || [];
