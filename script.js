@@ -4,7 +4,7 @@ let guests = JSON.parse(localStorage.getItem('guests')) || [];
 let expenses = JSON.parse(localStorage.getItem('expenses')) || [];
 let venues = JSON.parse(localStorage.getItem('venues')) || [];
 
-// Event Type Images from Unsplash
+// Event Type Images from Unsplash 
 const eventImages = {
     wedding: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=400&h=300&fit=crop',
     conference: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&h=300&fit=crop',
